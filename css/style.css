@@ -1,0 +1,96 @@
+@import url(../libs/bs5/bootstrap-reboot.min.css);
+@import url(../libs/bs5/bootstrap-grid.min.css);
+@import url(../fonts/icons/style.css);
+@import url(components/header.css);
+@import url(components/navbar.css);
+@import url(components/other.css);
+@import url(components/section.css);
+@import url(components/bootstrap_skins.css);
+@import url(components/footer.css);
+
+.font1 {
+    font-family: 'Playfair Display', serif !important;
+}
+
+.font2 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.font3 {
+    font-family: 'Roboto', sans-serif,  !important;
+}
+
+.color-accent {
+    color: #D4C17F !important;
+}
+
+.fz11 {
+    font-size: 11px !important;
+}
+body {
+    color: #fff;
+    background-color: #242B33;
+    min-width: 280px;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font: 700 48px/64px 'Playfair Display', serif;
+    color: #D4C17F;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 50px;
+}
+
+a:hover {
+    color: #D4C17F;
+}
+.unstyled {
+    color: #fff;
+    text-decoration: none;
+}
+
+.posr {
+    position: relative !important;
+}
+
+p {
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.fz13 {
+    font-size: 13px !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fz-lg-13 {
+        font-size: 13px !important; 
+    }
+}
